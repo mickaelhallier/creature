@@ -62,13 +62,12 @@
         }
 
         .why {
-    min-height: 100vh;
+    min-height: auto;
     background: #F3EFE5;
     color: #2D516A;
     display: flex;
     align-items: center;
     padding: 100px 8vw;
-    min-height: auto;
 }
 
 .why-content {
