@@ -147,6 +147,8 @@
     max-width: 1400px;
     margin: 0 auto;
     padding: 100px 40px;
+    background-color: #F3F0E8;
+    color: #202020;
 }
 
 .projet-header {
