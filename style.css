@@ -142,4 +142,38 @@
     line-height: 1.6;
 }
 
+.projet-terre-brute {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 100px 40px;
+}
+
+.projet-header {
+    margin-bottom: 45px;
+}
+
+.projet-header h2 {
+    margin: 0 0 8px;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+}
+
+.projet-header p {
+    margin: 0;
+    font-size: 15px;
+    color: #777;
+}
+
+.projet-image {
+    width: 100%;
+}
+
+.projet-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
     
