@@ -186,3 +186,29 @@
     height: auto;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.10);
 }
+
+/* CORRECTION DES SECTIONS PROJETS */
+
+section.projet-terre-brute,
+section.projet-shoreline-supply {
+    width: 100%;
+    margin: 0;
+    padding: 55px 8vw 100px !important;
+    background-color: #F3F0E8 !important;
+    color: #2D516A !important;
+}
+
+section.projet-terre-brute .projet-header,
+section.projet-shoreline-supply .projet-header {
+    width: 100%;
+    margin: 0 0 40px !important;
+    padding: 0 !important;
+    background: transparent !important;
+}
+
+section.projet-terre-brute .projet-image,
+section.projet-shoreline-supply .projet-image {
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+}
