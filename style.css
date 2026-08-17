@@ -129,28 +129,38 @@
 }
 
 /* =========================
-   PROJETS
+   PROJET TERRE BRUTE
    ========================= */
 
-.projet-terre-brute,
+.projet-terre-brute {
+    width: 100%;
+    margin: 0;
+    padding: 55px 8vw 100px;
+    background-color: #F3F0E8;
+    color: #2D516A;
+}
+
+
+/* =========================
+   PROJET SHORELINE SUPPLY
+   ========================= */
+
 .projet-shoreline-supply {
     width: 100%;
     margin: 0;
     padding: 55px 8vw 100px;
+    background-color: #F3F0E8;
     color: #2D516A;
 }
 
-.projet-terre-brute {
-    background-color: #F3F0E8;
-}
 
-.projet-shoreline-supply {
-    background-color: #F3F0E8;
-}
+/* =========================
+   ELEMENTS COMMUNS
+   ========================= */
 
 .projet-header {
     width: 100%;
-    margin: 0 auto 40px;
+    margin: 0 0 40px;
 }
 
 .projet-header h3 {
@@ -167,7 +177,7 @@
 
 .projet-image {
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .projet-image img {
