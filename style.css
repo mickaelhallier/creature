@@ -1,72 +1,74 @@
- * {
-            box-sizing: border-box;
-        }
+/* ========================================
+   RESET
+======================================== */
 
-        html {
-            scroll-behavior: smooth;
-        }
+* {
+    box-sizing: border-box;
+}
 
-        body {
-            margin: 0;
-            background: #2D516A;
-            color: #F5F2E9;
-            font-family: Arial, Helvetica, sans-serif;
-        }
+html {
+    scroll-behavior: smooth;
+}
 
-        .hero {
-            height: 100vh;
-            min-height: 600px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            position: relative;
-        }
+body {
+    margin: 0;
+    background: #2D516A;
+    color: #F5F2E9;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-        .logo {
-            width: 900px;
-            max-width: 80vw;
-            height: auto;
-            margin-bottom: 30px;
-        }
 
-        h1 {
-            margin: 0;
-            font-family: Georgia, serif;
-            font-size: clamp(52px, 8vw, 90px);
-            font-weight: normal;
-            letter-spacing: 8px;
-        }
+/* ========================================
+   HERO
+======================================== */
 
-        .baseline {
-            margin-top: 18px;
-            font-size: 16px;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-        }
+.hero {
+    height: 100vh;
+    min-height: 600px;
 
-        .scroll {
-            position: absolute;
-            bottom: 35px;
-            color: #F5F2E9;
-            text-decoration: none;
-            font-size: 14px;
-            letter-spacing: 2px;
-        }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-        .scroll span {
-            display: block;
-            font-size: 24px;
-            margin-top: 8px;
-        }
+    text-align: center;
+    position: relative;
+}
 
-        .why {
-    min-height: auto;
+.logo {
+    width: 900px;
+    max-width: 80vw;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.scroll {
+    position: absolute;
+    bottom: 35px;
+
+    color: #F5F2E9;
+    text-decoration: none;
+
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.scroll span {
+    display: block;
+    margin-top: 8px;
+
+    font-size: 24px;
+}
+
+
+/* ========================================
+   SECTION POURQUOI
+======================================== */
+
+.why {
     background: #F3EFE5;
     color: #2D516A;
-    display: flex;
-    align-items: center;
+
     padding: 100px 8vw;
 }
 
@@ -74,20 +76,22 @@
     width: 100%;
     max-width: 1100px;
     margin: 0 auto;
-
 }
 
 .section-label {
     margin: 0 0 70px;
+
     font-size: 14px;
     letter-spacing: 3px;
     font-weight: bold;
-    font-variant: small-caps
+    font-variant: small-caps;
 }
 
 .why h2 {
     max-width: 850px;
+
     margin: 0;
+
     font-size: clamp(25px, 3vw, 50px);
     line-height: 1.05;
     font-weight: normal;
@@ -95,7 +99,9 @@
 
 .intro {
     max-width: 700px;
+
     margin: 55px 0 0;
+
     font-size: clamp(20px, 2vw, 28px);
     line-height: 1.5;
 }
@@ -103,11 +109,13 @@
 .objective {
     margin-top: 120px;
     padding-left: 30px;
+
     border-left: 3px solid #ED8527;
 }
 
 .objective-label {
     margin: 0 0 20px;
+
     font-size: 13px;
     letter-spacing: 3px;
     font-weight: bold;
@@ -115,7 +123,9 @@
 
 .objective h3 {
     max-width: 900px;
+
     margin: 0;
+
     font-size: clamp(25px, 3vw, 50px);
     line-height: 1.1;
     font-weight: normal;
@@ -123,92 +133,92 @@
 
 .conclusion {
     max-width: 650px;
+
     margin: 70px 0 0;
+
     font-size: 19px;
     line-height: 1.6;
 }
 
-/* =========================
-   PROJET TERRE BRUTE
-   ========================= */
 
-.projet-terre-brute {
+/* ========================================
+   PROJETS
+======================================== */
+
+.project {
     width: 100%;
-    margin: 0;
+
     padding: 55px 8vw 100px;
-    background-color: #F3F0E8;
+
+    background: #F3F0E8;
     color: #2D516A;
 }
 
 
-/* =========================
-   PROJET SHORELINE SUPPLY
-   ========================= */
+/* Espace entre deux projets */
 
-.projet-shoreline-supply {
-    width: 100%;
-    margin: 0;
-    padding: 55px 8vw 100px;
-    background-color: #F3F0E8;
-    color: #2D516A;
+.project + .project {
+    padding-top: 80px;
 }
 
 
-/* =========================
-   ELEMENTS COMMUNS
-   ========================= */
+/* ========================================
+   EN-TÊTE DU PROJET
+======================================== */
 
-.projet-header {
-    width: 100%;
+.project-header {
     margin: 0 0 40px;
 }
 
-.projet-header h3 {
+.project-header h3 {
     margin: 0 0 8px;
+
     font-size: 32px;
     font-weight: 500;
     letter-spacing: 0.08em;
 }
 
-.projet-header p {
+.project-header p {
     margin: 0;
+
     font-size: 15px;
 }
 
-.projet-image {
+
+/* ========================================
+   PLANCHE DU PROJET
+======================================== */
+
+.project-image {
+    display: block;
+
     width: 100%;
-    margin: 0;
+
+    text-decoration: none;
 }
 
-.projet-image img {
+.project-image img {
     display: block;
+
     width: 100%;
     height: auto;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.10);
+
+    box-shadow:
+        0 10px 20px rgba(0, 0, 0, 0.10);
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
 }
 
-/* CORRECTION DES SECTIONS PROJETS */
 
-section.projet-terre-brute,
-section.projet-shoreline-supply {
-    width: 100%;
-    margin: 0;
-    padding: 55px 8vw 100px !important;
-    background-color: #F3F0E8 !important;
-    color: #2D516A !important;
-}
+/* ========================================
+   SURVOL
+======================================== */
 
-section.projet-terre-brute .projet-header,
-section.projet-shoreline-supply .projet-header {
-    width: 100%;
-    margin: 0 0 40px !important;
-    padding: 0 !important;
-    background: transparent !important;
-}
+.project-image:hover img {
+    transform: translateY(-3px);
 
-section.projet-terre-brute .projet-image,
-section.projet-shoreline-supply .projet-image {
-    width: 100%;
-    margin: 0 !important;
-    padding: 0 !important;
+    box-shadow:
+        0 14px 28px rgba(0, 0, 0, 0.16);
 }
